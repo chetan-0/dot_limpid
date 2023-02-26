@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-img-1{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s');
+}
+.bg-img-2{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s');
+}
+.bg-img-3{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s');
+}
+.carousel-image{
+  height: 88vh;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: center;
+}

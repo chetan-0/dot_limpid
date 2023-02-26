@@ -7,7 +7,10 @@ function App() {
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">dot limpid</a>
+    {/* <a class="navbar-brand" href="#">
+      <img src="dot_limpid\dotlimpid2-02.svg" alt="dot limpid" width="30" height="24"/>
+      </a> */}
+      <a class="navbar-brand" href="#">dot limpid</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,30 +36,30 @@ function App() {
   </div>
 </nav>
 
-<div class="d-inline-flex p-2 bd-highlight" >
-<div id="carouselExampleCaptions"  class="carousel slide w-75 " >
+<div class="d-flex p-3 align-items-start bd-highlight" >
+<div id="carouselExampleCaptions"  class="carousel slide w-100 " >
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" class="d-block w-100" alt="..."/>
+    <div class="carousel-item carousel-image bg-img-1 active">
+      {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" class="d-block w-100" alt="..."/> */}
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" class="d-block w-100" alt="..."/>
+    <div class="carousel-item carousel-image bg-img-2">
+      {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" class="d-block w-100" alt="..."/> */}
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" class="d-block w-100" alt="..."/>
+    <div class="carousel-item carousel-image bg-img-3" >
+      {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" class="d-block w-100" alt="..."/> */}
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
